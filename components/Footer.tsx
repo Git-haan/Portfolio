@@ -57,7 +57,17 @@ const Footer = () => {
           
         </div>
       </div>
-      <p>© 2021</p>
+      <hr className="mb-10 border-stone-500"/>
+      <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-auto text-white text-xs">
+        <p className="p-8">©2024 ISHAAN REDDY</p>
+        <p className="p-8">ALL RIGHTS RESERVED</p>
+        <p className="hidden md:block p-8">SITE BY ISHAAN REDDY</p>
+        <div className="hidden md:flex md:justify-end px-16 py-5">
+            <a href="https://github.com/Git-haan/portfolio" target="_blank" className="p-5 md:p-0">
+            <Image src="icons8-github-100.svg" alt="github" width={30} height={30} />
+            </a>
+        </div>
+      </div>
     </section>
   );
 }

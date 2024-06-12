@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
 
         <div className="flex justify-end">
-          <a href="https://github.com/Git-haan/Nike-Landing-Page" target="_blank">
+          <a href="https://github.com/Git-haan" target="_blank">
             <Image src="icons8-github-100.svg" alt="github" width={30} height={30} />
           </a>
         </div>
