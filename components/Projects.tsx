@@ -23,7 +23,7 @@ const Projects = () => {
         <div className="container text-sm animate-fadeIn">
             <hr className="mb-10 border-stone-500"/>
             <div className="grid grid-cols-1 md:grid-cols-4 grid-rows-auto">
-                <p className="p-5 md:p-0 text-stone-500">2023</p>
+                <p className="p-5 md:p-0 text-stone-500">2024</p>
                 <h1 className="p-5 md:p-0 text-2xl font-semibold text-white">2D Pixel Port</h1>
                 <p className="p-5 md:p-0 text-white"> A Kaboom.js pixel game with 3 unique maps and interactable objects.</p>
                 <div className="hidden md:flex md:justify-end p-5 md:p-0">
