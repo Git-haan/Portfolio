@@ -22,7 +22,7 @@ const Footer = () => {
                 <Image src="diagonal-arrow.svg" alt="arrow" width={20} height={20} className="bg-white"/>
               </li>
               <li className="flex flex-row hover:text-stone-400">
-                <a href="https://ishaan-task-manager.vercel.app/" target="_blank" className="px-1">Tasks</a>
+                <a href="https://main.dlr5pzvovrapk.amplifyapp.com/" target="_blank" className="px-1">Tasks</a>
                 <Image src="diagonal-arrow.svg" alt="arrow" width={20} height={20} className="bg-white"/>
               </li>
             </ul>
@@ -58,9 +58,9 @@ const Footer = () => {
         </div>
       </div>
       <hr className="my-10 border-stone-500"/>
-      <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-auto text-white text-xs container">
-        <p>©2024 ISHAAN REDDY</p>
-        <p>ALL RIGHTS RESERVED</p>
+      <div className="grid grid-cols-2 md:grid-cols-4 grid-rows-auto gap-4 md:gap-0 text-white text-xs container">
+        <p className="max-w-32 md:max-w-full">©2024 ISHAAN REDDY</p>
+        <p className="max-w-32 md:max-w-full">ALL RIGHTS RESERVED</p>
         <p className="hidden md:block">SITE BY ISHAAN REDDY</p>
         <div className="hidden md:flex md:justify-end">
             <a href="https://github.com/Git-haan/portfolio" target="_blank" className="p-5 md:p-0">

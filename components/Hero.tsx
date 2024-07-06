@@ -22,7 +22,7 @@ const Hero = () => {
               <Image src="diagonal-arrow.svg" alt="arrow" width={20} height={20} className="bg-white"/>
             </li>
             <li className="flex flex-row hover:text-stone-400">
-              <a href="https://ishaan-task-manager.vercel.app/" target="_blank" className="px-1">Tasks</a>
+              <a href="https://main.dlr5pzvovrapk.amplifyapp.com/" target="_blank" className="px-1">Tasks</a>
               <Image src="diagonal-arrow.svg" alt="arrow" width={20} height={20} className="bg-white"/>
             </li>
           </ul>
